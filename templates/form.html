@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <center>
+        <h1>User Details</h1>
+    </center>
+
+    <hr>
+
+    <p>Hello User welcome to bank model. Enter your details</p>
+
+    <form method="post" action="{{ url_for('details') }}">
+    
+        Enter your job :<input type="text" name="job">
+        Enter your marital status:<input type="text" name="marital status">
+        Enter your default status:<input type="text" name="default status">
+        Enter your balance:<input type="text" name="balance">
+        Enter your housing status:<input type="text" name="housing status">
+        Enter your loan status:<input type="text" name="marital status">
+        Enter month :<input type="text" name="month">
+        Enter your age:<input type="text" name="age">
+    </form>
+
+</body>
+</html>
